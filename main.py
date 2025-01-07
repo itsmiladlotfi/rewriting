@@ -4,7 +4,7 @@ from slowapi.util import get_remote_address
 from slowapi.middleware import SlowAPIMiddleware
 from openai import OpenAI
 
-from config import credentials
+import credentials
 from prompt import article_prompt, with_two_text
 
 app = FastAPI()
